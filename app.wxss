@@ -1,0 +1,5 @@
+
+page {
+  font-family: "pingFangSC-Thin";
+  font-size: 32rpx;
+}
