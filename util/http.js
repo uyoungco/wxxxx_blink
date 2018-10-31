@@ -25,7 +25,7 @@ class HTTP {
         // endsWith
         let code = res.statusCode.toString()
         if(code.startsWith('2')) {
-          params.success(res.data)
+          params.success && params.success(res.data)
         } else {
           // 服务器异常
           let error_code = res.data.error_code
